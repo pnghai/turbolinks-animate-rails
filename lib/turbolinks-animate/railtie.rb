@@ -2,7 +2,7 @@
 
 require 'rails/railtie'
 require 'mozaic'
-require 'app/helpers/turbolinks_animate_helper'
+require_relative '../../app/helpers/turbolinks_animate_helper'
 module TurbolinksAnimate
   class Railtie < Rails::Railtie
     initializer 'turbolinks-animate.mozaic' do
