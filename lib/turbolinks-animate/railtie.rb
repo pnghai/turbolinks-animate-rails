@@ -22,7 +22,7 @@ module TurbolinksAnimate
 
     initializer 'turbolinks-animate.action_controller' do
       ActiveSupport.on_load :action_controller do
-        include ::TurbolinksAnimateHelper
+        include TurbolinksAnimateHelper
       end
     end
   end
